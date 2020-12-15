@@ -1,0 +1,14 @@
+{
+  "name": "current_node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "../node_modules/.bin/tsc",
+    "compile": "../node_modules/.bin/tsc --noEmit"
+  },
+  "dependencies": {
+    "@types/react-native": "^0.63.40",
+    "@types/styled-components": "^5.1.5"
+  }
+}
