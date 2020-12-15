@@ -78,3 +78,20 @@ Builds out of the box.
 **React Native users need to add `@types/styled-components-react-native"`.**
 
 Then it works out of the box. 
+
+If you don't have it included, you get:
+
+```sh
+styled-components-types-tests/proposed_rn on  main [!] is 📦 v1.0.0 via ⬢ v14.15.1 
+❯ yarn compile
+yarn run v1.22.10
+$ ../node_modules/.bin/tsc --noEmit
+index.tsx:3:20 - error TS2307: Cannot find module 'styled-components/native' or its corresponding type declarations.
+
+3 import styled from 'styled-components/native';
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Found 1 error.
+
+```
